@@ -20,15 +20,15 @@ module.exports = () => {
     plugins: [
        new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'TODOs List'
+        title: 'J.A.T.E.'
       }),
       new InjectManifest({
-      swSrc: './src/sw.js',
-      swDest: 'service-worker.js',
+      swSrc: './src-sw.js',
+      swDest: 'src-sw.js',
     }),
      new WebpackPwaManifest({
-        name: 'TODOs',
-        short_name: 'TODOs',
+        name: 'Just another text editor',
+        short_name: 'J.A.T.E.',
         description: 'Keep track of important tasks!',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
@@ -36,7 +36,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('assets/images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
