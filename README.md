@@ -23,7 +23,7 @@ Progressive web apps, or PWAs, are what modern applications aspire toward at pro
 
 Follow along with this video for installation or clone down repo for source code.
 
-    [video instruction](./Untitled_%20Jun%2012%2C%202023%2010_56%20PM.gif)
+    ![video instruction](./Untitled_%20Jun%2012%2C%202023%2010_56%20PM.gif)
 ## Usage
 
 Follow link to live Heroku site to download the editor from your browser!:
